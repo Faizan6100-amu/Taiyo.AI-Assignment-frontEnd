@@ -1,0 +1,15 @@
+#charts_page_div{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 500px;
+}
+@media screen and (max-width: 900px){
+    #charts_page_div{
+        display: grid;
+        margin: 10px;
+    }
+  }
+  .leaflet-container{
+    height: 500px;
+    width: 100%;
+  }
